@@ -10,8 +10,7 @@ end
 
 always@(posedge clk)begin
 if(branch==1'b1 && zero==1'b1) begin
-   pcoutbuff<=pcoutbuff+imm;
-   //SB Type instructions not implemented in terms of byte offset but directly in terms of instruction 
+   pcoutbuff<=pcoutbuff+imm; 
    end
 else begin
    pcoutbuff<=pcoutbuff+1;
