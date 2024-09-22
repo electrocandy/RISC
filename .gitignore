@@ -6,3 +6,7 @@
 /nbitadder.v.bak
 /programcounter.v.bak
 /register.v.bak
+control.v.bak
+mux.v.bak
+singlepath.v.bak
+testbench.v.bak
