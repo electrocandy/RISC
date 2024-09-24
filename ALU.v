@@ -7,6 +7,7 @@ case(control)
 4'b0001: outbuff<=A|B;
 4'b0010: outbuff<=A+B;
 4'b0110: outbuff<=A-B;
+4'b0011: outbuff<=A^B;
 endcase
 end
 
