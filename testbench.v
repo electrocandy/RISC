@@ -23,5 +23,7 @@ initial begin
 #50 clk=1'b1;
 #50 clk=1'b0;
 #50 clk=1'b1;
+#50 clk=1'b0;
+#50 clk=1'b1;
 end
 endmodule
