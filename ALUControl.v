@@ -11,6 +11,7 @@ case(ALUOp)
        4'b1000: contbuff<=4'b0110;
        4'b0111: contbuff<=4'b0000;
        4'b0110: contbuff<=4'b0001;
+       4'b0100: contbuff<=4'b0011; //Added for XOR
 
 default: contbuff<=4'bxxxx;
 endcase
